@@ -68,6 +68,16 @@ body {
   animation: fadeInUp 0.8s ease-out 0.3s forwards;
 }
 
+.flag-github-link{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 24px;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 0.3s forwards;
+ 
+}
+
 .flag-display {
   list-style: none;
   display: flex;

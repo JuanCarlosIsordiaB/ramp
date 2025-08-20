@@ -88,7 +88,7 @@ const App: React.FC = () => {
         <h1 className="title">Ramp CTF Challenge</h1>
         <div className="flag-container">
           <h2 className="flag-name-title ">Juan Carlos Isordia Betancourt  </h2>
-          <h2 className="flag-name-title ">GitHub Repo: </h2>
+          <a className='flag-github-link' href="https://github.com/JuanCarlosIsordiaB/ramp" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
           <h2 className="flag-title">Flag Captured</h2>
           <ul className="flag-display">
             {Array.from(displayedFlag).map((char: string, index: number) => (
